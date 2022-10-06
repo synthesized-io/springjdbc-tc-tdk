@@ -1,0 +1,17 @@
+[
+  {
+    "id": 9,
+    "name": "talk1",
+    "conference": {
+      "id": 3,
+      "name": "conf1"
+    },
+    "status": "IN_REVIEW",
+    "speakers": [
+      {
+        "id": 9,
+        "name": "speaker2"
+      }
+    ]
+  }
+]
