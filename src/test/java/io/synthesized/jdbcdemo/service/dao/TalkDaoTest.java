@@ -35,13 +35,6 @@ class TalkDaoTest {
 
     @BeforeEach
     void init() throws SQLException {
-/*
-        var speakerId = TDK.generate("public.talk")
-                .with("speaker_id",  speaker.getId())
-                .one().asIntegerPair();
-*/
-        //var id = conferennceDao.insert("foobar", "foobar");
-
         conference = conferenceDao.getConferences().iterator().next();
         speaker = speakerDao.getSpeakers().iterator().next();
         talk = dao.getTalksByConference(conference).iterator().next();

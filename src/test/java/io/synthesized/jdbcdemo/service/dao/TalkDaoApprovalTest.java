@@ -3,12 +3,12 @@ package io.synthesized.jdbcdemo.service.dao;
 import io.synthesized.jdbcdemo.domain.Conference;
 import io.synthesized.jdbcdemo.domain.Talk;
 import org.approvaltests.JsonApprovals;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 
-import javax.annotation.PostConstruct;
 import java.sql.SQLException;
 import java.util.Objects;
 import java.util.Set;
@@ -24,7 +24,7 @@ public class TalkDaoApprovalTest {
 
     private Conference conference;
 
-    @PostConstruct
+    @BeforeEach
     void init() throws SQLException {
         conference = conferenceDao.getConferences().iterator().next();
     }
