@@ -20,8 +20,6 @@
         <testcontainers.version>1.17.3</testcontainers.version>
         <junit.jupiter.version>5.9.0</junit.jupiter.version>
         <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
-        <h2.version>1.4.200</h2.version>
-
     </properties>
 
     <build>
