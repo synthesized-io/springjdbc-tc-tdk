@@ -89,6 +89,7 @@
             <groupId>io.synthesized</groupId>
             <artifactId>tdk-tc</artifactId>
             <version>1.01</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
