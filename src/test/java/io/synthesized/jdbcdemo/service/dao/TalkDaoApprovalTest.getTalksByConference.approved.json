@@ -1,6 +1,6 @@
 [
   {
-    "id": 9,
+    "id": 6,
     "name": "talk1",
     "conference": {
       "id": 3,
@@ -9,7 +9,7 @@
     "status": "IN_REVIEW",
     "speakers": [
       {
-        "id": 9,
+        "id": 5,
         "name": "speaker2"
       }
     ]
