@@ -1,17 +1,17 @@
 [
   {
-    "id": 6,
-    "name": "talk1",
+    "id": 3,
+    "name": "MnkVLBcSGJeelU190EZAwq",
     "conference": {
-      "id": 3,
-      "name": "conf1"
+      "id": 5,
+      "name": "9zx3i8oNspCHrkIhneNYG18"
     },
-    "status": "IN_REVIEW",
-    "feedback": "tjhY",
+    "status": "NEW",
+    "feedback": "RoopSXMfpkPYSNA1W4N",
     "speakers": [
       {
-        "id": 5,
-        "name": "speaker2"
+        "id": 2,
+        "name": "c"
       }
     ]
   }
