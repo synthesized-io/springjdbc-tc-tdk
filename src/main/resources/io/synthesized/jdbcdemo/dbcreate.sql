@@ -27,14 +27,3 @@ create table talkspeakers (
 );
 
 
-
-
-
-/* "SEED" RECORDS */
-insert into conference(id, name) VALUES (1, 'conf1');
-insert into speaker(id, name) values (1, 'speaker1');
-insert into speaker(id, name) values (2, 'speaker2');
-insert into talk(id, name, conferenceid, status) VALUES (1, 'talk1', 1, 'IN_REVIEW');
-insert into talkspeakers(talkid, speakerid) VALUES (1, 1);
-insert into talkspeakers(talkid, speakerid) VALUES (1, 2);
-

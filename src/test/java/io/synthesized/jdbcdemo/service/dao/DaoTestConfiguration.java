@@ -30,6 +30,24 @@ public class DaoTestConfiguration {
                         default_config:
                           mode: "GENERATION"
                           target_row_number: 10
+                        tables:
+                          - table_name_with_schema: "public.talk"
+                            transformations:
+                              - columns: [ "status" ]
+                                params:
+                                  type: "categorical_generator"
+                                  categories:
+                                    type: string
+                                    values:
+                                      - "NEW"
+                                      - "IN_REVIEW"
+                                      - "ACCEPTED"
+                                      - "REJECTED"
+                                  probabilities:
+                                    - 0.25
+                                    - 0.25
+                                    - 0.25
+                                    - 0.25
                         global_seed: 42
                           """);
     }
