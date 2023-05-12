@@ -25,7 +25,7 @@ public class DaoTestConfiguration {
         input = getContainer("input", true);
         output = getContainer("output", false);
         Startables.deepStart(input, output).join();
-        new SynthesizedTDK()
+        new SynthesizedTDK(SynthesizedTDK.DEFAULT_IMAGE_NAME)
                 .transform(input, output, """
                         default_config:
                           mode: "GENERATION"
