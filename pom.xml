@@ -88,7 +88,7 @@
         <dependency>
             <groupId>io.synthesized</groupId>
             <artifactId>tdk-tc</artifactId>
-            <version>1.04</version>
+            <version>1.05</version>
             <scope>test</scope>
         </dependency>
 
